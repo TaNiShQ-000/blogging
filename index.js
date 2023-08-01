@@ -31,7 +31,7 @@ app.get("/" , async (req,res) => {
   const allBlogs = await Blog.find({});
   res.render("home" , { //and pass user object to the ejs page
     user: req.user,
-    blog: allBlogs,
+    blogs: allBlogs,
   });
 });
 

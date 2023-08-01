@@ -17,6 +17,7 @@ function checkForAuthenticationCookie( cookieName){
   };
 };
 
+
 function hello(str){
   return (req,res,next) =>{
     console.log(req.cookies);
