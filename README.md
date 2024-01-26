@@ -1,6 +1,3 @@
-**A Blogging app created for geeks**
-
-this is a complete MERN stack-based project which 
 # My Blog App - MERN Stack Project
 
 Welcome to **My Blog App**, a full-stack blogging application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. This project showcases a comprehensive implementation of server-side rendering with EJS, file uploads with Multer, authentication and authorization using JSON Web Tokens (JWT) and cookies, and MongoDB for storing user data.
