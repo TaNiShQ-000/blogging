@@ -92,6 +92,7 @@ Visit [http://localhost:8000](http://localhost:8000) to explore My Blog App!
 ### Middleware
 
 Middleware functions include body parsing, cookie handling, and serving static files. Additionally, an authentication middleware ensures secure routes.
+This function is crucial for securing routes that require authentication in a Node.js application. It checks for the presence of an authentication token stored in a specified cookie (cookieName). If the token is found in the incoming request, the middleware attempts to validate it using the validateToken function from an external authentication service. If the validation is successful, the decoded user payload is attached to the req.user.
 
 ### User Model
 
@@ -119,7 +120,7 @@ Implements blog post-related logic, such as creating new posts and fetching exis
 
 ## Client-Side Details
 
-The client-side code is organized into components and views using React. Axios is used for making HTTP requests to the server. Further details can be found in the `client` directory.
+The client-side code is organized into components and views using React. Axios is used for making HTTP requests to the server.
 
 ## Contributing
 
